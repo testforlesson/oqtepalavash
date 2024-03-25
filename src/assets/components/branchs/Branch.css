@@ -1,0 +1,55 @@
+.branch{
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.branch_heading-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.branch_heading-top >div{
+    display: flex;
+    gap: 20px;
+}
+.branch_heading-top >div > a{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.branch_heading-top >div > a:nth-child(1){
+    background-color: red; 
+}
+.branch_heading-top >div > a:nth-child(2){
+    background-color: #ccc;
+}
+.branch_screen{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.branch_screen::-webkit-scrollbar{
+    display: none;
+}
+.branch_s{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

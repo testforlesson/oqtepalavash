@@ -1,0 +1,16 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+   position: relative;
+   top: 150px;
+   margin-bottom: 100px;
+   background-color: #fff;
+
+
+}
+.about > div> img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}

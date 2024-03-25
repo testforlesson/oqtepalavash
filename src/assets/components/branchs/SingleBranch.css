@@ -1,0 +1,33 @@
+.single_branch{
+    width: 1150px;
+    height: 130px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 10px 46px 2px #f4f1f16e;
+    -webkit-box-shadow: 1px 10px 46px 2px #f4f1f16e;
+    -moz-box-shadow: 1px 10px 46px 2px #f4f1f16e;
+    border-radius: 10px;
+
+}
+.single_branch > div:nth-child(1){
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+
+
+}
+.single_branch-location{
+    display: flex;
+    gap: 10px;
+
+}
+.single_branch > div:nth-child(2){
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}

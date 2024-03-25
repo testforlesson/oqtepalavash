@@ -1,0 +1,133 @@
+.header{
+    width: 1240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff !important;
+    margin: 0 auto !important;
+}
+
+.header_right{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.header_right-top_list{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+.header_right-top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.header_right-bottom{
+    display: flex;
+    gap: 40px;
+}
+.header_right-bottom_search{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #EBEBEB;
+    border-left: 1px solid #EBEBEB;
+    border-right: 1px solid #EBEBEB;
+}
+.header_right-bottom_search > input{
+    width: 95%;
+    
+
+}
+.header_right-bottom > button{
+    width: 20%;
+    height: 30px;
+    background-color: #E52D2B;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+/* lokatsiya */
+.header_location{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.header_location> span, .header_region > span, .header_lang>span{
+    padding: 5px;
+    background-color: #FCEAEA;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.location_icon{
+    color: red;
+}
+.header_location-text{
+    font-size: 12px;
+}
+.header_location-span{
+    font-size: 10px;
+    color: #E52D2B;
+}
+
+/* huuduh */
+.header_region{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.region_select{
+    appearance: none;
+    background-color: transparent;
+}
+/* til */
+.header_lang{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+.flag{
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+}
+.header_lang-select{
+    background-color: transparent;
+    color: #E52D2B;
+}
+/* login */
+.header_btn{
+    width: 100px;
+    height: 30px;
+    background-color: #F0F0F0;
+    border-radius: 7px;
+
+}
